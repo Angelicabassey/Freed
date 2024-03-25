@@ -37,7 +37,7 @@ export default function Adminlogin () {
                         </div>
 
                     </div>
-                    <p className=" text-gray-800 font-bold text-center">OR</p>
+                    <p className="text-gray-800 font-bold text-center">OR</p>
                     <section className="flex justify-center gap-6">
                         <Image src="/Twitter.png" alt={"img"} width={"40"} height={"40"} className="" />
                         <Image src="/Linkedin.png" alt={"img"} width={"40"} height={"40"} className="" />

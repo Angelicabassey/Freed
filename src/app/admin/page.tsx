@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 
 export default function Admin() {
@@ -6,7 +5,7 @@ export default function Admin() {
         <main>
             <div className="border px-16 py-1 h-16 shadow">
                 <div>
-                    <a href="./freed"><Image src="/logo.png" alt={"img"} width={"50"} height={"50"}/></a>
+                    <a href="./freed"><Image src="/logo.png" alt={"img"} width={"50"} height={"50"} /></a>
                 </div>
             </div>
 
@@ -15,14 +14,14 @@ export default function Admin() {
                 <div className="flex flex-row justify-center items-center text-center gap-8 py-4">
                     <div className="border border-primary shadow h-52 w-80 rounded-lg px-6 py-6 items-center hover:shadow-xl">
                         <div className="flex flex-row justify-between items-center">
-                            <Image src="/Moneyverse Buy Online.png" alt={"img"} width={"60"} height={"60"}/>
+                            <Image src="/Moneyverse Buy Online.png" alt={"img"} width={"60"} height={"60"} />
                             <div className="bg-primary h-8 w-8 rounded"></div>
                         </div>
                         <h1 className="py-6 text-2xl font-medium w-5/6 text-left">I'm a client, hiring for a project</h1>
                     </div>
                     <div className="border border-primary shadow h-52 w-80 rounded-lg px-6 py-6 items-center hover:shadow-xl">
                         <div className="flex justify-between items-center">
-                            <Image src="/Moneyverse Bitcoin Balance.png" alt={"img"} width={"60"} height={"60"}/>
+                            <Image src="/Moneyverse Bitcoin Balance.png" alt={"img"} width={"60"} height={"60"} />
                             <div className="bg-purple-300 h-8 w-8 rounded"></div>
                         </div>
                         <p className="py-6 text-2xl font-medium w-5/6 text-left">I'm a freelancer looking for work</p>
@@ -31,7 +30,7 @@ export default function Admin() {
 
                 <div className="flex flex-col gap-3 my-6 items-center">
                     <button className="bg-primary text-white px-24 py-2 rounded-lg">Continue</button>
-                    <p className="text-sm">Already have an account ? <a className=" text-primary font-medium" href="#">Log in</a></p>
+                    <p className="text-sm">Already have an account ?<a className="text-primary font-medium" href="#">Log in</a></p>
                 </div>
             </section>
         </main>

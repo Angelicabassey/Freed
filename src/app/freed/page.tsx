@@ -6,7 +6,7 @@ export default function Freed() {
       <nav className="w-screen shadow-lg">
         <div className="flex justify-between items-center font-sans px-16 my-2">
           <div>
-            <Image src="/LOGO (2).png" alt={"img"} width={"50"} height={"50"}/>
+            <Image src="/LOGO (2).png" alt={"img"} width={"50"} height={"50"} />
           </div>
           <div>
             <ul className="flex font-sans font-light gap-10">
@@ -15,7 +15,6 @@ export default function Freed() {
               <li><a href="">How it works</a></li>
               <li><a href="">Faq</a></li>
               <li><a href="">Contact</a></li>
-
             </ul>
           </div>
           <div>
@@ -48,7 +47,7 @@ export default function Freed() {
       </div>
 
       <div className="flex justify-around">
-        <Image src="/col2.png" alt={"img"} width={"1100"} height={"500"}/>
+        <Image src="/col2.png" alt={"img"} width={"1100"} height={"500"} />
       </div>
 
       <div className="flex justify-center items-center py-16">
@@ -193,18 +192,18 @@ export default function Freed() {
 
       <div className="flex justify-center items-center text-center gap-10">
         <div className="flex items-center flex-col text-center">
-          <Image src="/sms (1).png" alt={"img"} width={"40"} height={"40"}/>
+          <Image src="/sms (1).png" alt={"img"} width={"40"} height={"40"} />
           <p className="font-medium w-72">Feel free to reach out to us with any questions or inquiries.</p>
           <p className="font-semibold">hello@cartesifreed.io</p>
         </div>
         <div className="flex items-center flex-col gap-3 text-center">
-          <Image src="/location.png" alt={"img"} width={"40"} height={"40"}/>
+          <Image src="/location.png" alt={"img"} width={"40"} height={"40"} />
 
           <p className="font-medium w-60">We're available to assist you during business hours.</p>
           <p className="font-semibold">+1 (555) 123-4567</p>
         </div>
         <div className="flex items-center flex-col gap-3 text-center">
-          <Image src="/call-calling.png" alt={"img"} width={"40"} height={"40"}/>
+          <Image src="/call-calling.png" alt={"img"} width={"40"} height={"40"} />
 
           <p className="font-medium w-80">Visit our office for a personal consultation or meeting.</p>
           <p className="font-semibold">123 Main St, Anytown, USA</p>
@@ -215,7 +214,7 @@ export default function Freed() {
       <section className="w-full my-32">
         <div className="flex justify-between items-center px-20">
           <div>
-            <Image src="/LOGO (2).png" alt={"img"} width={"50"} height={"50"}/>
+            <Image src="/LOGO (2).png" alt={"img"} width={"50"} height={"50"} />
           </div>
           <div>
             <ul className="flex font-sans font-light gap-10">
@@ -228,10 +227,10 @@ export default function Freed() {
             </ul>
           </div>
           <div className="flex gap-4">
-            <Image src="/Vector.png" alt={"img"} width={"30"} height={"30"}/>
-            <Image src="/Vector (1).png" alt={"img"} width={"30"} height={"30"}/>
-            <Image src="/Vector.png" alt={"img"} width={"30"} height={"30"}/>
-            <Image src="/Group (2).png" alt={"img"} width={"30"} height={"30"}/>
+            <Image src="/Vector.png" alt={"img"} width={"30"} height={"30"} />
+            <Image src="/Vector (1).png" alt={"img"} width={"30"} height={"30"} />
+            <Image src="/Vector.png" alt={"img"} width={"30"} height={"30"} />
+            <Image src="/Group (2).png" alt={"img"} width={"30"} height={"30"} />
 
           </div>
 

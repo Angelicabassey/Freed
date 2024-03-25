@@ -5,9 +5,9 @@ export default function Home() {
   return (
     <main className="w-full font-sans">
       <nav className=" w-screen shadow-lg">
-        <div className=" flex justify-between items-center font-sans px-16 my-2 ">
+        <div className=" flex justify-between items-center font-sans px-16 my-2">
           <div>
-            <Image src="/LOGO (2).png" alt={"img"} width={"50"} height={"50"} className="" />
+            <Image src="/LOGO (2).png" alt={"img"} width={"50"} height={"50"}/>
           </div>
           <div>
             <ul className="flex font-sans font-light gap-10">
@@ -25,16 +25,16 @@ export default function Home() {
         </div>
       </nav>
 
-      <div className=" my-10">
-        <div className="flex flex-row text-center justify-between ">
-          <div className="flex flex-col gap-10- text-center">
-            <div className=" mx-32 relative ">
+      <div className="my-10">
+        <div className="flex flex-row text-center justify-between">
+          <div className="flex flex-col text-center">
+            <div className="mx-32 relative">
               <Image src="/Group 11.png" alt={"img"} width={"100"} height={"100"} className="" />
-              <div className=" px-20">
-                <h1 className=" text-6xl font-bold w-11/12 text-center">Welcome To <a className=" text-primary" href="#">Freed</a>, the  Future Of Freelancing</h1>
+              <div className="px-20">
+                <h1 className="text-6xl font-bold w-11/12 text-center">Welcome To <a className=" text-primary" href="#">Freed</a>, the  Future Of Freelancing</h1>
               </div>
-              <div className="flex mx-44- left-44- relative my-4">
-                <p className=" text-xl w-4/6 mx-44 " >Join our decentralized platform and experience the benefits of blockchain technology in the freelance industry.</p>
+              <div className="flex relative my-4">
+                <p className="text-xl w-4/6 mx-44" >Join our decentralized platform and experience the benefits of blockchain technology in the freelance industry.</p>
 
               </div>
               <Image src="/Group 10.png" alt={"img"} width={"100"} height={"100"} className=" left-[860px] bottom-20 relative" />
@@ -48,15 +48,15 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex justify-around ">
+      <div className="flex justify-around">
         <Image src="/col2.png" alt={"img"} width={"1100"} height={"500"} className=" " />
       </div>
 
       <div className="flex justify-center items-center py-16">
         <div className="flex flex-col gap-4 px-20">
           <h1>About</h1>
-          <h2 className=" text-4xl w-5/6 font-bold">Experience a Decentralized Marketplace for Transparent <a className=" text-primary" href="">and Fair Freelancing</a> </h2>
-          <p className=" text-sm w-9/12">Freed's decentralized marketplace ensures transparency and fairness by eliminating intermediaries and providing a secure environment for freelancers and clients to collaborate.</p>
+          <h2 className="text-4xl w-5/6 font-bold">Experience a Decentralized Marketplace for Transparent <a className=" text-primary" href="">and Fair Freelancing</a> </h2>
+          <p className="text-sm w-9/12">Freed's decentralized marketplace ensures transparency and fairness by eliminating intermediaries and providing a secure environment for freelancers and clients to collaborate.</p>
           <div className="flex flex-col gap-2">
             <div className="flex items-center gap-4">
               <Image src="/trade.png" alt={"img"} width={"20"} height={"20"} className="" />
@@ -72,13 +72,13 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className=" top-10 right-40 relative ">
-          <Image src="/iPad Pro.png" alt={"img"} width={"1000"} height={"500"} className="" />
+        <div className="top-10 right-40 relative">
+          <Image src="/iPad Pro.png" alt={"img"} width={"1000"} height={"500"}/>
         </div>
       </div>
 
 
-      <div className="flex justify-around- gap-20  items-center- px-16 py-20">
+      <div className="flex gap-20 px-16 py-20">
         <div>
           <p>Features</p>
           <Image src="/col112.png" alt={"img"} width={"800"} height={"500"} className="py-12" />
@@ -98,7 +98,7 @@ export default function Home() {
               <p className=" text-sm">Fair and Equitable Environment</p>
             </div>
             <div className="flex items-center gap-4">
-              <Image src="/trade.png" alt={"img"} width={"20"} height={"20"} className="" />
+              <Image src="/trade.png" alt={"img"} width={"20"} height={"20"}/>
               <p className=" text-sm">Elemination of third parties</p>
             </div>
             <div className="flex gap-6 my-4">
@@ -111,8 +111,8 @@ export default function Home() {
 
 
       <div className="flex flex-row justify-center px-20">
-        <div className=" left-10- relative">
-          <h1 className=" font-bold text-4xl w-5/6">Intuitive Dashboards for Freelancers and Clients</h1>
+        <div>
+          <h1 className="font-bold text-4xl w-5/6">Intuitive Dashboards for Freelancers and Clients</h1>
           <div className="flex gap-6 my-24">
             <button className="bg-primary py-1 px-4 text-white rounded-lg">Sign Up</button>
             <button className="text-primary  py-1 px-4 rounded-lg flex  gap-4 items-center"> Learn More <Image src="/arrow-side.png" alt={"img"} width={"20"} height={"20"} className="" /> </button>
