@@ -31,10 +31,10 @@ export default function Freed() {
             <div className=" mx-32 relative">
               <Image src="/Group 11.png" alt={"img"} width={"100"} height={"100"} className="" />
               <div className=" px-20">
-                <h1 className=" text-6xl font-bold w-11/12 text-center">Welcome To <a className=" text-primary" href="#">Freed</a>, the  Future Of Freelancing</h1>
+                <h1 className="text-6xl font-bold w-11/12 text-center">Welcome To <a className=" text-primary" href="#">Freed</a>, the Future Of Freelancing</h1>
               </div>
               <div className="flex my-4">
-                <p className=" text-xl w-4/6 mx-44 " >Join our decentralized platform and experience the benefits of blockchain technology in the freelance industry.</p>
+                <p className="text-xl w-4/6 mx-44">Join our decentralized platform and experience the benefits of blockchain technology in the freelance industry.</p>
 
               </div>
               <Image src="/Group 10.png" alt={"img"} width={"100"} height={"100"} className=" left-[860px] bottom-20 relative" />
@@ -72,13 +72,13 @@ export default function Freed() {
             </div>
           </div>
         </div>
-        <div className=" top-10 right-40 relative">
+        <div className="top-10 right-40 relative">
           <Image src="/iPad Pro.png" alt={"img"} width={"1000"} height={"500"} className="" />
         </div>
       </div>
 
 
-      <div className="flex justify-around- gap-20  items-center- px-16 py-20">
+      <div className="flex gap-20 px-16 py-20">
         <div>
           <p>Features</p>
           <Image src="/col112.png" alt={"img"} width={"800"} height={"500"} className="py-12" />
@@ -111,7 +111,7 @@ export default function Freed() {
 
 
       <div className="flex flex-row justify-center px-20">
-        <div className=" left-10- relative">
+        <div className="">
           <h1 className=" font-bold text-4xl w-5/6">Intuitive Dashboards for Freelancers and Clients</h1>
           <div className="flex gap-6 my-24">
             <button className="bg-primary py-1 px-4 text-white rounded-lg">Sign Up</button>
@@ -172,8 +172,8 @@ export default function Freed() {
             <button className="text-primary border border-primary py-2 px-2 rounded-lg flex gap-2 items-center"> Learn More <Image src="/arrow-side.png" alt={"img"} width={"20"} height={"20"} className="" /> </button>
           </div>
         </div>
-        <div className=" bg-purple-600 h-72 w-96 flex items-center">
-          <div className=" text-center px-28 py-8">
+        <div className="bg-purple-600 h-72 w-96 flex items-center">
+          <div className="text-center px-28 py-8">
             <Image src="/LOGO (2).png" alt={"img"} width={"200"} height={"200"} className="" />
           </div>
         </div>
@@ -181,7 +181,7 @@ export default function Freed() {
 
       <div className=" bg-primary text-white my-20">
         <div className="flex flex-col justify-center text-center gap-4 p-16">
-          <h1 className=" text-3xl font-bold w-4/12-">Stay Informed with <br /> Our Newsletter</h1>
+          <h1 className="text-3xl font-bold">Stay Informed with <br /> Our Newsletter</h1>
           <p>Subscribe to receive updates, industry insights, and valuable tips.</p>
           <div className="flex gap-6 px-[400px]">
             <input className="shadow appearance-none border rounded w-80 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Username" />
@@ -193,22 +193,22 @@ export default function Freed() {
       </div>
 
       <div className="flex justify-center items-center text-center gap-10 w-8/12- mx-56-">
-        <div className=" flex items-center flex-col gap- text-center ">
+        <div className="flex items-center flex-col text-center">
           <Image src="/sms (1).png" alt={"img"} width={"40"} height={"40"} className="" />
           <p className=" font-medium w-72">Feel free to reach out to us with any questions or inquiries.</p>
           <p className="font-semibold">hello@cartesifreed.io</p>
         </div>
-        <div className=" flex items-center flex-col gap-3 text-center ">
+        <div className="flex items-center flex-col gap-3 text-center">
           <Image src="/location.png" alt={"img"} width={"40"} height={"40"} className="" />
 
-          <p className=" font-medium w-60">We're available to assist you during business hours.</p>
+          <p className="font-medium w-60">We're available to assist you during business hours.</p>
           <p className=" font-semibold">+1 (555) 123-4567</p>
         </div>
-        <div className=" flex items-center flex-col gap-3 text-center ">
+        <div className="flex items-center flex-col gap-3 text-center">
           <Image src="/call-calling.png" alt={"img"} width={"40"} height={"40"} className="" />
 
-          <p className=" font-medium w-80">Visit our office for a personal consultation or meeting.</p>
-          <p className=" font-semibold">123 Main St, Anytown, USA</p>
+          <p className="font-medium w-80">Visit our office for a personal consultation or meeting.</p>
+          <p className="font-semibold">123 Main St, Anytown, USA</p>
 
         </div>
       </div>
@@ -240,7 +240,7 @@ export default function Freed() {
 
         <div className="border border-black flex w-11/12 mx-14"></div>
 
-        <div className="flex gap-8  justify-center py-24- top-10 relative">
+        <div className="flex gap-8 justify-center py-24- top-10 relative">
           <p className="text-center">© 2023 Freed. All rights reserved.</p>
 
           <div className="flex gap-4">

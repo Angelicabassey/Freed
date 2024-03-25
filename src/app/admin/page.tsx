@@ -25,7 +25,7 @@ export default function Admin() {
                             <Image src="/Moneyverse Bitcoin Balance.png" alt={"img"} width={"60"} height={"60"} className="" />
                             <div className=" bg-purple-300 h-8 w-8 rounded"></div>
                         </div>
-                        <p className="py-6 text-2xl font-medium w-5/6 text-left">I`&apos m a freelancer looking for work</p>
+                        <p className="py-6 text-2xl font-medium w-5/6 text-left">I'm a freelancer looking for work</p>
                     </div>
                 </div>
 
