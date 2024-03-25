@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 
-export default function Home() {
+export default function Freed() {
   return (
     <main className="w-full font-sans">
       <nav className=" w-screen shadow-lg">
