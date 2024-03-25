@@ -25,15 +25,15 @@ export default function Freed() {
         </div>
       </nav>
 
-      <div className=" my-10">
+      <div className="my-10">
         <div className="flex flex-row text-center justify-between ">
-          <div className="flex flex-col gap-10- text-center">
-            <div className=" mx-32 relative ">
+          <div className="flex flex-col text-center">
+            <div className=" mx-32 relative">
               <Image src="/Group 11.png" alt={"img"} width={"100"} height={"100"} className="" />
               <div className=" px-20">
                 <h1 className=" text-6xl font-bold w-11/12 text-center">Welcome To <a className=" text-primary" href="#">Freed</a>, the  Future Of Freelancing</h1>
               </div>
-              <div className="flex mx-44- left-44- relative my-4">
+              <div className="flex my-4">
                 <p className=" text-xl w-4/6 mx-44 " >Join our decentralized platform and experience the benefits of blockchain technology in the freelance industry.</p>
 
               </div>
@@ -48,8 +48,8 @@ export default function Freed() {
         </div>
       </div>
 
-      <div className="flex justify-around ">
-        <Image src="/col2.png" alt={"img"} width={"1100"} height={"500"} className=" " />
+      <div className="flex justify-around">
+        <Image src="/col2.png" alt={"img"} width={"1100"} height={"500"}/>
       </div>
 
       <div className="flex justify-center items-center py-16">
@@ -72,7 +72,7 @@ export default function Freed() {
             </div>
           </div>
         </div>
-        <div className=" top-10 right-40 relative ">
+        <div className=" top-10 right-40 relative">
           <Image src="/iPad Pro.png" alt={"img"} width={"1000"} height={"500"} className="" />
         </div>
       </div>
@@ -88,7 +88,7 @@ export default function Freed() {
           <p className=" font-bold text-4xl w-10/12">Unlock Global Opportunities with Cryptocurrency Payments on Freed</p>
           <p className=" w-7/12 text-sm">Freed empowers freelancers worldwide by enabling cryptocurrency payments, providing access to the freelance economy without banking limitations.</p>
 
-          <div className="flex flex-col gap-2 ">
+          <div className="flex flex-col gap-2">
             <div className="flex items-center gap-4">
               <Image src="/trade.png" alt={"img"} width={"20"} height={"20"} className="" />
               <p className=" text-sm">Transparent Transactions</p>
@@ -115,31 +115,31 @@ export default function Freed() {
           <h1 className=" font-bold text-4xl w-5/6">Intuitive Dashboards for Freelancers and Clients</h1>
           <div className="flex gap-6 my-24">
             <button className="bg-primary py-1 px-4 text-white rounded-lg">Sign Up</button>
-            <button className="text-primary  py-1 px-4 rounded-lg flex  gap-4 items-center"> Learn More <Image src="/arrow-side.png" alt={"img"} width={"20"} height={"20"} className="" /> </button>
+            <button className="text-primary py-1 px-4 rounded-lg flex  gap-4 items-center"> Learn More <Image src="/arrow-side.png" alt={"img"} width={"20"} height={"20"} className="" /> </button>
           </div>
         </div>
         <div className="flex flex-col gap-6 w-4/6">
           <p className="">Freed provides comprehensive user dashboards that offer insights into job statuses, financials, communications, and more. These intuitive dashboards enhance user experience and productivity.</p>
           <div className="flex gap-4">
             <div>
-              <h3 className=" font-bold">Overview</h3>
+              <h3 className="font-bold">Overview</h3>
               <p>Get a clear overview of your ongoing projects, earnings, and communication history.</p>
             </div>
             <div>
-              <h3 className=" font-bold">Financials</h3>
+              <h3 className="font-bold">Financials</h3>
               <p>Track your earnings, invoices, and payments in one centralized location.</p>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="flex justify-around ">
+      <div className="flex justify-around">
         <Image src="/col2.png" alt={"img"} width={"1100"} height={"1000"} className=" " />
       </div>
 
       <div>
-        <div className="flex justify-center items-center- py-36">
-          <div className=" top-10- left-14 relative  mx-20-">
+        <div className="flex justify-center py-36">
+          <div className="left-14 relative">
             <Image src="/iMac Mockup (24 inch).png" alt={"img"} width={"1000"} height={"1000"} className="" />
           </div>
           <div className="flex flex-col gap-4 px-20">
@@ -163,16 +163,16 @@ export default function Freed() {
         </div>
       </div>
 
-      <div className="flex justify-center ">
+      <div className="flex justify-center">
         <div className="border border-primary p-10">
           <h2 className=" font-bold text-2xl w-80">Join the Freed Community Today</h2>
           <p>Discover a new way to freelance and connect with clients globally.</p>
           <div className="flex gap-6 my-6">
             <button className="bg-primary py-1 px-9 text-white rounded-lg">Sign Up</button>
-            <button className="text-primary  border border-primary py-2 px-2 rounded-lg flex  gap-2 items-center"> Learn More <Image src="/arrow-side.png" alt={"img"} width={"20"} height={"20"} className="" /> </button>
+            <button className="text-primary border border-primary py-2 px-2 rounded-lg flex gap-2 items-center"> Learn More <Image src="/arrow-side.png" alt={"img"} width={"20"} height={"20"} className="" /> </button>
           </div>
         </div>
-        <div className=" bg-purple-600 h-72 w-96 flex items-center ">
+        <div className=" bg-purple-600 h-72 w-96 flex items-center">
           <div className=" text-center px-28 py-8">
             <Image src="/LOGO (2).png" alt={"img"} width={"200"} height={"200"} className="" />
           </div>
@@ -220,11 +220,11 @@ export default function Freed() {
           </div>
           <div>
             <ul className="flex font-sans font-light gap-10">
-              <li><a href="">About</a></li>
-              <li><a href="">Features</a></li>
-              <li><a href="">How it works</a></li>
-              <li><a href="">Faq</a></li>
-              <li><a href="">Contact</a></li>
+              <li>About</li>
+              <li>Features</li>
+              <li>How it works</li>
+              <li>Faq</li>
+              <li>Contact</li>
 
             </ul>
           </div>

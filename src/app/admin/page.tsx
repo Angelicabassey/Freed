@@ -12,15 +12,15 @@ export default function Admin() {
 
             <section className="flex flex-col justify-center items-center my-8 gap-8">
                 <h1 className=" text-center text-2xl font-semibold">Set Up your profile</h1>
-                <div className="flex flex-row justify-center items-center text-center gap-8 py-4">
-                    <div className="border border-primary shadow h-52 w-80 rounded-lg px-6 py-6 items-center">
+                <div className="flex flex-row justify-center items-center text-center gap-8 py-4 ">
+                    <div className="border border-primary shadow h-52 w-80 rounded-lg px-6 py-6 items-center hover:shadow-xl">
                         <div className="flex flex-row justify-between items-center">
                             <Image src="/Moneyverse Buy Online.png" alt={"img"} width={"60"} height={"60"} className="" />
                             <div className=" bg-primary h-8 w-8 rounded"></div>
                         </div>
                         <h1 className=" py-6 text-2xl font-medium w-5/6 text-left">I’m a client, hiring for a project</h1>
                     </div>
-                    <div className="border border-primary shadow h-52 w-80 rounded-lg px-6 py-6 items-center">
+                    <div className="border border-primary shadow h-52 w-80 rounded-lg px-6 py-6 items-center hover:shadow-xl">
                         <div className="flex justify-between items-center">
                             <Image src="/Moneyverse Bitcoin Balance.png" alt={"img"} width={"60"} height={"60"} className="" />
                             <div className=" bg-purple-300 h-8 w-8 rounded"></div>

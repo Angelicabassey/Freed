@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 
-export default function Admin() {
+export default function Adminlogin () {
     return (
         <main>
             <head className="flex justify-between px-16 py-2 h-14 relative shadow">
