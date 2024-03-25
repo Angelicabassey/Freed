@@ -33,7 +33,7 @@ export default function Home() {
               <div className="px-20">
                 <h1 className="text-6xl font-bold w-11/12 text-center">Welcome To <a className=" text-primary" href="#">Freed</a>, the  Future Of Freelancing</h1>
               </div>
-              <div className="flex relative my-4">
+              <div className="flex my-4">
                 <p className="text-xl w-4/6 mx-44" >Join our decentralized platform and experience the benefits of blockchain technology in the freelance industry.</p>
 
               </div>
@@ -56,7 +56,7 @@ export default function Home() {
         <div className="flex flex-col gap-4 px-20">
           <h1>About</h1>
           <h2 className="text-4xl w-5/6 font-bold">Experience a Decentralized Marketplace for Transparent <a className=" text-primary" href="">and Fair Freelancing</a> </h2>
-          <p className="text-sm w-9/12">Freed's decentralized marketplace ensures transparency and fairness by eliminating intermediaries and providing a secure environment for freelancers and clients to collaborate.</p>
+          <p className="text-sm w-9/12">Freed&apos;s decentralized marketplace ensures transparency and fairness by eliminating intermediaries and providing a secure environment for freelancers and clients to collaborate.</p>
           <div className="flex flex-col gap-2">
             <div className="flex items-center gap-4">
               <Image src="/trade.png" alt={"img"} width={"20"} height={"20"} className="" />
@@ -143,8 +143,8 @@ export default function Home() {
             <Image src="/iMac Mockup (24 inch).png" alt={"img"} width={"1000"} height={"1000"} className="" />
           </div>
           <div className="flex flex-col gap-4 px-20">
-            <h2 className=" text-4xl w-5/6 font-bold">Expand Your Skills with Freed's Learning Opportunities</h2>
-            <p className=" text-sm w-5/6">At Freed, we believe in continuous growth and learning. That's why we offer a range of resources and workshops to help you enhance your skills and stay ahead in your freelance career.</p>
+            <h2 className=" text-4xl w-5/6 font-bold">Expand Your Skills with Freed&apos;s Learning Opportunities</h2>
+            <p className=" text-sm w-5/6">At Freed, we believe in continuous growth and learning. That&apos;s why we offer a range of resources and workshops to help you enhance your skills and stay ahead in your freelance career.</p>
             <div className="flex flex-col gap-2">
               <div className="flex items-center gap-4">
                 <Image src="/trade.png" alt={"img"} width={"20"} height={"20"} className="" />
@@ -201,7 +201,7 @@ export default function Home() {
         <div className=" flex items-center flex-col gap-3 text-center ">
           <Image src="/location.png" alt={"img"} width={"40"} height={"40"} className="" />
 
-          <p className=" font-medium w-60">We're available to assist you during business hours.</p>
+          <p className=" font-medium w-60">We&apos;re available to assist you during business hours.</p>
           <p className=" font-semibold">+1 (555) 123-4567</p>
         </div>
         <div className=" flex items-center flex-col gap-3 text-center ">

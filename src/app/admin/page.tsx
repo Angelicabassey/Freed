@@ -17,14 +17,14 @@ export default function Admin() {
                             <Image src="/Moneyverse Buy Online.png" alt={"img"} width={"60"} height={"60"} />
                             <div className="bg-primary h-8 w-8 rounded"></div>
                         </div>
-                        <h1 className="py-6 text-2xl font-medium w-5/6 text-left">I'm a client, hiring for a project</h1>
+                        <h1 className="py-6 text-2xl font-medium w-5/6 text-left">I&apos;m a client, hiring for a project</h1>
                     </div>
                     <div className="border border-primary shadow h-52 w-80 rounded-lg px-6 py-6 items-center hover:shadow-xl">
                         <div className="flex justify-between items-center">
                             <Image src="/Moneyverse Bitcoin Balance.png" alt={"img"} width={"60"} height={"60"} />
                             <div className="bg-purple-300 h-8 w-8 rounded"></div>
                         </div>
-                        <p className="py-6 text-2xl font-medium w-5/6 text-left">I'm a freelancer looking for work</p>
+                        <p className="py-6 text-2xl font-medium w-5/6 text-left">I&apos;m a freelancer looking for work</p>
                     </div>
                 </div>
 
