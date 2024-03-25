@@ -6,7 +6,7 @@ export default function Admin() {
         <main>
             <div className="border px-16 py-1 h-16 shadow">
                 <div>
-                    <a href="./freed"> <Image src="/logo.png" alt={"img"} width={"50"} height={"50"}/></a>
+                    <a href="./freed"><Image src="/logo.png" alt={"img"} width={"50"} height={"50"}/></a>
                 </div>
             </div>
 
@@ -23,14 +23,14 @@ export default function Admin() {
                     <div className="border border-primary shadow h-52 w-80 rounded-lg px-6 py-6 items-center hover:shadow-xl">
                         <div className="flex justify-between items-center">
                             <Image src="/Moneyverse Bitcoin Balance.png" alt={"img"} width={"60"} height={"60"}/>
-                            <div className=" bg-purple-300 h-8 w-8 rounded"></div>
+                            <div className="bg-purple-300 h-8 w-8 rounded"></div>
                         </div>
                         <p className="py-6 text-2xl font-medium w-5/6 text-left">I'm a freelancer looking for work</p>
                     </div>
                 </div>
 
                 <div className="flex flex-col gap-3 my-6 items-center">
-                    <button className=" bg-primary text-white px-24 py-2 rounded-lg">Continue</button>
+                    <button className="bg-primary text-white px-24 py-2 rounded-lg">Continue</button>
                     <p className="text-sm">Already have an account ? <a className=" text-primary font-medium" href="#">Log in</a></p>
                 </div>
             </section>

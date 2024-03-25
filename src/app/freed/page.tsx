@@ -1,13 +1,12 @@
-"use client";
 import Image from "next/image";
 
 export default function Freed() {
   return (
     <main className="w-full font-sans">
-      <nav className=" w-screen shadow-lg">
-        <div className=" flex justify-between items-center font-sans px-16 my-2 ">
+      <nav className="w-screen shadow-lg">
+        <div className="flex justify-between items-center font-sans px-16 my-2">
           <div>
-            <Image src="/LOGO (2).png" alt={"img"} width={"50"} height={"50"} className="" />
+            <Image src="/LOGO (2).png" alt={"img"} width={"50"} height={"50"}/>
           </div>
           <div>
             <ul className="flex font-sans font-light gap-10">
@@ -20,7 +19,7 @@ export default function Freed() {
             </ul>
           </div>
           <div>
-            <button className=" bg-primary py-1 px-6 text-white rounded-lg"><a href="./admin">Sign Up</a></button>
+            <button className="bg-primary py-1 px-6 text-white rounded-lg"><a href="./admin">Sign Up</a></button>
           </div>
         </div>
       </nav>
@@ -28,9 +27,9 @@ export default function Freed() {
       <div className="my-10">
         <div className="flex flex-row text-center justify-between ">
           <div className="flex flex-col text-center">
-            <div className=" mx-32 relative">
+            <div className="mx-32 relative">
               <Image src="/Group 11.png" alt={"img"} width={"100"} height={"100"} className="" />
-              <div className=" px-20">
+              <div className="px-20">
                 <h1 className="text-6xl font-bold w-11/12 text-center">Welcome To <a className=" text-primary" href="#">Freed</a>, the Future Of Freelancing</h1>
               </div>
               <div className="flex my-4">
@@ -55,8 +54,8 @@ export default function Freed() {
       <div className="flex justify-center items-center py-16">
         <div className="flex flex-col gap-4 px-20">
           <h1>About</h1>
-          <h2 className=" text-4xl w-5/6 font-bold">Experience a Decentralized Marketplace for Transparent <a className=" text-primary" href="">and Fair Freelancing</a> </h2>
-          <p className=" text-sm w-9/12">Freed's decentralized marketplace ensures transparency and fairness by eliminating intermediaries and providing a secure environment for freelancers and clients to collaborate.</p>
+          <h2 className="text-4xl w-5/6 font-bold">Experience a Decentralized Marketplace for Transparent <a className=" text-primary" href="">and Fair Freelancing</a> </h2>
+          <p className="text-sm w-9/12">Freed's decentralized marketplace ensures transparency and fairness by eliminating intermediaries and providing a secure environment for freelancers and clients to collaborate.</p>
           <div className="flex flex-col gap-2">
             <div className="flex items-center gap-4">
               <Image src="/trade.png" alt={"img"} width={"20"} height={"20"} className="" />
@@ -85,21 +84,21 @@ export default function Freed() {
         </div>
 
         <div className="flex flex-col gap-4">
-          <p className=" font-bold text-4xl w-10/12">Unlock Global Opportunities with Cryptocurrency Payments on Freed</p>
-          <p className=" w-7/12 text-sm">Freed empowers freelancers worldwide by enabling cryptocurrency payments, providing access to the freelance economy without banking limitations.</p>
+          <p className="font-bold text-4xl w-10/12">Unlock Global Opportunities with Cryptocurrency Payments on Freed</p>
+          <p className="w-7/12 text-sm">Freed empowers freelancers worldwide by enabling cryptocurrency payments, providing access to the freelance economy without banking limitations.</p>
 
           <div className="flex flex-col gap-2">
             <div className="flex items-center gap-4">
               <Image src="/trade.png" alt={"img"} width={"20"} height={"20"} className="" />
-              <p className=" text-sm">Transparent Transactions</p>
+              <p className="text-sm">Transparent Transactions</p>
             </div>
             <div className="flex items-center gap-4">
               <Image src="/trade.png" alt={"img"} width={"20"} height={"20"} className="" />
-              <p className=" text-sm">Fair and Equitable Environment</p>
+              <p className="text-sm">Fair and Equitable Environment</p>
             </div>
             <div className="flex items-center gap-4">
               <Image src="/trade.png" alt={"img"} width={"20"} height={"20"} className="" />
-              <p className=" text-sm">Elemination of third parties</p>
+              <p className="text-sm">Elemination of third parties</p>
             </div>
             <div className="flex gap-6 my-4">
               <button className="bg-primary py-1 px-4 text-white rounded-lg">Sign Up</button>
@@ -111,15 +110,15 @@ export default function Freed() {
 
 
       <div className="flex flex-row justify-center px-20">
-        <div className="">
-          <h1 className=" font-bold text-4xl w-5/6">Intuitive Dashboards for Freelancers and Clients</h1>
+        <div>
+          <h1 className="font-bold text-4xl w-5/6">Intuitive Dashboards for Freelancers and Clients</h1>
           <div className="flex gap-6 my-24">
             <button className="bg-primary py-1 px-4 text-white rounded-lg">Sign Up</button>
             <button className="text-primary py-1 px-4 rounded-lg flex  gap-4 items-center"> Learn More <Image src="/arrow-side.png" alt={"img"} width={"20"} height={"20"} className="" /> </button>
           </div>
         </div>
         <div className="flex flex-col gap-6 w-4/6">
-          <p className="">Freed provides comprehensive user dashboards that offer insights into job statuses, financials, communications, and more. These intuitive dashboards enhance user experience and productivity.</p>
+          <p>Freed provides comprehensive user dashboards that offer insights into job statuses, financials, communications, and more. These intuitive dashboards enhance user experience and productivity.</p>
           <div className="flex gap-4">
             <div>
               <h3 className="font-bold">Overview</h3>
@@ -244,9 +243,9 @@ export default function Freed() {
           <p className="text-center">© 2023 Freed. All rights reserved.</p>
 
           <div className="flex gap-4">
-            <a href="">Privacy Policy</a>
-            <a href="">Terms of Use</a>
-            <a href="">Cookie Policy</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Cookie Policy</a>
           </div>
         </div>
       </section>
