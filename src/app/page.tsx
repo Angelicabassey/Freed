@@ -11,11 +11,11 @@ export default function Home() {
           </div>
           <div>
             <ul className="flex font-sans font-light gap-10">
-              <li><a href="">About</a></li>
-              <li><a href="">Features</a></li>
-              <li><a href="">How it works</a></li>
-              <li><a href="">Faq</a></li>
-              <li><a href="">Contact</a></li>
+              <li><a className=" font-medium" href="">About</a></li>
+              <li><a className=" font-medium" href="">Features</a></li>
+              <li><a className=" font-medium" href="">How it works</a></li>
+              <li><a className=" font-medium" href="">Faq</a></li>
+              <li><a className=" font-medium" href="">Contact</a></li>
 
             </ul>
           </div>

@@ -29,8 +29,8 @@ export default function Admin() {
                 </div>
 
                 <div className="flex flex-col gap-3 my-6 items-center">
-                    <button className="bg-primary text-white px-24 py-2 rounded-lg">Continue</button>
-                    <p className="text-sm">Already have an account ?<a className="text-primary font-medium" href="#">Log in</a></p>
+                    <button className="bg-primary text-white px-24 py-2 rounded-lg"><a href="./dashboard">Continue</a></button>
+                    <p className="text-sm">Already have an account ?<a className="text-primary font-medium" href="./login">Log in</a></p>
                 </div>
             </section>
         </main>
